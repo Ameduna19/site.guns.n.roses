@@ -3,59 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu Site Criativo</title>
+  <title>Guns N' Roses - Fan Page Oficial</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Cabeçalho e Menu -->
+  <!-- Cabeçalho e Navegação -->
   <header>
-    <h1>Nome do Seu Site</h1>
+    <div class="logo">Guns N' Roses</div>
     <nav>
       <ul>
         <li><a href="#inicio">Início</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#destaques">Destaques</a></li>
-        <li><a href="#contato">Contato</a></li>
+        <li><a href="#sobre">A Banda</a></li>
+        <li><a href="#integrantes">Integrantes</a></li>
+        <li><a href="#discografia">Discografia</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Banner / Apresentação -->
+  <!-- Banner Principal -->
   <section id="inicio" class="hero">
-    <h2>Bem-vindo ao nosso projeto!</h2>
-    <p>Uma breve descrição sobre o objetivo do site e o que o público vai encontrar aqui.</p>
-    <a href="#destaques" class="btn">Explorar Conteúdo</a>
+    <div class="hero-content">
+      <h1>Bem-vindo ao mundo do Hard Rock</h1>
+      <p>A história, os sucessos e os integrantes de uma das maiores bandas do planeta.</p>
+      <a href="#discografia" class="btn">Ver Discografia</a>
+    </div>
   </section>
 
-  <!-- Seção de Cards / Destaques -->
-  <section id="destaques" class="container">
-    <h2>Destaques</h2>
-    
+  <!-- Seção Sobre -->
+  <section id="sobre" class="container">
+    <h2>Sobre a Banda</h2>
+    <p>Formada em Los Angeles no ano de 1985, o Guns N' Roses marcou a história da música com riffs marcantes de guitarra, vocais potentes e shows inesquecíveis pelo mundo todo.</p>
+  </section>
+
+  <!-- Seção Integrantes (Cards) -->
+  <section id="integrantes" class="container">
+    <h2>Integrantes Famosos</h2>
     <div class="cards-grid">
       <div class="card">
-        <h3>Tópico 1</h3>
-        <p>Descrição curta do primeiro card de conteúdo.</p>
-        <button>Saiba mais</button>
+        <h3>Axl Rose</h3>
+        <p class="funcao">Vocalista e Pianista</p>
+        <p>Famoso por seu alcance vocal único, presença de palco inconfundível e grandes composições.</p>
       </div>
 
       <div class="card">
-        <h3>Tópico 2</h3>
-        <p>Descrição curta do segundo card de conteúdo.</p>
-        <button>Saiba mais</button>
+        <h3>Slash</h3>
+        <p class="funcao">Guitarrista Solo</p>
+        <p>Reconhecido mundialmente por sua cartola, pela guitarra Les Paul e por solos inesquecíveis.</p>
       </div>
 
       <div class="card">
-        <h3>Tópico 3</h3>
-        <p>Descrição curta do terceiro card de conteúdo.</p>
-        <button>Saiba mais</button>
+        <h3>Duff McKagan</h3>
+        <p class="funcao">Baixista</p>
+        <p>A força por trás do ritmo de baixo e vocais de apoio marcantes na trajetória da banda.</p>
       </div>
     </div>
   </section>
 
+  <!-- Seção Discografia (Tabela) -->
+  <section id="discografia" class="container">
+    <h2>Principais Álbuns</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Álbum</th>
+          <th>Ano</th>
+          <th>Músicas de Destaque</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Appetite for Destruction</td>
+          <td>1987</td>
+          <td>Sweet Child O' Mine, Welcome to the Jungle</td>
+        </tr>
+        <tr>
+          <td>Use Your Illusion I & II</td>
+          <td>1991</td>
+          <td>November Rain, Don't Cry, Civil War</td>
+        </tr>
+        <tr>
+          <td>Chinese Democracy</td>
+          <td>2008</td>
+          <td>Chinese Democracy, Better</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
   <!-- Rodapé -->
   <footer>
-    <p>&copy; 2026 - Desenvolvido para o projeto escolar. Publicado via GitHub Pages.</p>
+    <p>&copy; 2026 - Projeto Escolar Guns N' Roses | Publicado via GitHub Pages</p>
   </footer>
 
 </body>
